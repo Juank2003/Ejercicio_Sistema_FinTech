@@ -35,7 +35,7 @@ public class Cuenta {
 
     // Obtener el saldo final
 
-    public double getSaldo(){
+    public double obtenerSaldo(){
     return saldo;
     }
 
