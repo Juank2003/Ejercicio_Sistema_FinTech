@@ -54,7 +54,7 @@ public class Lanzador {
 
         // Registrar el saldo final por la terminal
         double saldoFinal = cuenta.obtenerSaldo();
-        System.out.println("Saldo Final: " + saldoFinal);
+        System.out.println("Saldo Final: " + saldoFinal + "€");
 
         if (saldoFinal == 10000) {
             System.out.println("La simulación ha funcionado correctamente.");

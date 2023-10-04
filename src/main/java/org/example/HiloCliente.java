@@ -15,11 +15,11 @@ public class HiloCliente  implements Runnable{
     public void run() {
         if (cantidad>0){
             cuenta.depositar(cantidad);
-            System.out.printf("Depósito"+ cantidad);
+            System.out.println("Depósito: "+ cantidad+ "€");
 
         }else{
             cuenta.retirar(-cantidad); //cantidad negativa para el retiro
-            System.out.printf("Retiro"+ cantidad);
+            System.out.println("Retiro: "+ (-cantidad)+"€");
 
 
         }
